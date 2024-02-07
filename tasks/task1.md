@@ -70,7 +70,7 @@ ORDER BY co.company_name, l.loc_state, l.loc_suburb, s.store_name;
 
 
 
-**4.**Yearly total part-time and full-time staff wage overview containing the company's name and the total yearly wage of all staff. Part-time staff yearly wage can be calculated based on agreed minimum hours per week, the hourly rate plus the superannuation. There are 52 weeks in a year. Full-time staff yearly wage is the salary amount.
+**4.** Yearly total part-time and full-time staff wage overview containing the company's name and the total yearly wage of all staff. Part-time staff yearly wage can be calculated based on agreed minimum hours per week, the hourly rate plus the superannuation. There are 52 weeks in a year. Full-time staff yearly wage is the salary amount.
 
 ````sql
 SELECT co.company_name,SUM((SELECT pt_hours_per_wk*pt_hourly_rate*52 + pt_super_amt as 'total_pt_wage'
@@ -88,7 +88,7 @@ GROUP BY company_name;
 | Soul Origin  |                      | 56375.00             |
 | Woolworth    |                      | 53500.00             |
 
-**5.**Large acquisition overview containing the company's name, the number of stores, and the number of staff. A company is considered a large acquisition if it has more than 2 stores or more than 3 staff.
+**5.** Large acquisition overview containing the company's name, the number of stores, and the number of staff. A company is considered a large acquisition if it has more than 2 stores or more than 3 staff.
 ````sql
 SELECT company_name ,c.company_id, num_staff, num_store
 FROM company c , (SELECT cp.company_id, COUNT( distinct ct.staff_id) as num_staff
