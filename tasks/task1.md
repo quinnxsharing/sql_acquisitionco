@@ -29,11 +29,12 @@ SELECT loc_street_address, CONCAT(loc_size,' sqm') as'the area size' , round(( l
 FROM location
 WHERE centre_id IS NULL;
 ````
-loc_street_address|the area size|the potential seating capacity|
-----------------------------------------------------------------|
-6 Springfield Blvd	|138.00 sqm	|82|
-15 Springfield Blvd	|116.00 sqm	|67|
-23 3rd St	|203.00 sqm	|125|
+| loc_street_address | area size (sqm) | potential seating capacity |
+|--------------------|-----------------|----------------------------|
+| 6 Springfield Blvd | 138.00          | 82                         |
+| 15 Springfield Blvd| 116.00          | 67                         |
+| 23 3rd St          | 203.00          | 125                        |
+
 
 
 
