@@ -23,7 +23,22 @@ the values should be included as part of the values, e.g. "125 sqm"
 
 ### Acquisition Co requires reports on the following information from the database:
 
-List of non-shopping centre locations containing the location's full address, the area size, and the potential seating capacity (assuming that min. service area is 15 sqm and 1.5 sqm per seating), e.g. for 125 sqm area, the area available for seating is 110 sqm, therefore can hold 73 seats.
+**1.** List of non-shopping centre locations containing the location's full address, the area size, and the potential seating capacity ?(assuming that min. service area is 15 sqm and 1.5 sqm per seating), e.g. for 125 sqm area, the area available for seating is 110 sqm, therefore can hold 73 seats.
+````sql
+SELECT loc_street_address, CONCAT(loc_size,' sqm') as'the area size' , round(( loc_size-15)/ 1.5,0) as 'the potential seating capacity'
+FROM location
+WHERE centre_id IS NULL;
+````
+loc_street_address|the area size|the potential seating capacity|
+----------------------------------------------------------------|
+6 Springfield Blvd	|138.00 sqm	|82|
+15 Springfield Blvd	|116.00 sqm	|67|
+23 3rd St	|203.00 sqm	|125|
+
+
+
+
+
 Upcoming manager's performance review overview containing the manager's full name and email address, also the number of staff they managed. The report should only capture managers with the next review date within the next 30 days.
 Casual staff contact directory containing their full contact details (full name, phone number, complete address, and date of birth) sorted alphabetically based on the full name. 
 List of shopping centre stores with sit-down service containing the company's name, store's name, shopping centre's name and full address, all the stores located within a shopping centre that offer sit-down service in a specific state (choose one). The list should be sorted alphabetically based on the company's name, store's state, suburb, and name.
