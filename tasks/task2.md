@@ -1,6 +1,8 @@
 ### Overview:
 The mission is to enhance some functionality to the updated database to support some of the business rules around their integrated timesheets, pays, and also a new aspect of paid training programs for staff. This task entails the implementation of additional functionality via stored procedures.
+
 **1 - Function- Annual Leave Calculation - Handling Numbers and Rates (e.g., Full-Time and Part-Time Rates)**
+
 This function is designed to calculate the amount of annual leave an individual should receive based on the hours they have worked. A person working a full year is entitled to 4 weeks of annual leave. It's important to note that this function operates only with positive numbers. If a negative number of hours worked is input, the output will be 0 annual leave hours.
 
 ````sql
