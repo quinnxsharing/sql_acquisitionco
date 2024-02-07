@@ -18,7 +18,7 @@ This project comprises two parts:
 - Part 1: Acquisition Co requires reports on various aspects of the database, such as non-shopping center locations or casual staff contact directory and many more.
  [Acquisition Co Data Analysis Questions & Answers](./tasks/task1.md)
 
-- Part 2: Acquisition Co aims to integrate timesheets, payments, and a new paid training program into a new payment tracking system. This involves adding functionality to the database to support business rules related to integrated timesheets, pays, and training programs.
+- Part 2: Acquisition Co aims to integrate timesheets, payments, and a new paid training program into a new payment tracking system. This involves adding functionality and stored procedures to the database to support business rules related to integrated timesheets, pays, and training programs.
  [Acquisition Co Functions and Stored Procedures](./tasks/task2.md)
 
 ## Entity Relationship Diagram
