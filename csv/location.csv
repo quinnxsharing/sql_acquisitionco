@@ -1,0 +1,11 @@
+loc_id,centre_id,loc_street_address,loc_suburb,loc_state,loc_postcode,loc_size,hasSeating
+1,NULL,"6 Springfield Blvd",Springfield,TAS,7533,138.00,1
+2,2,"Shop 6",Chadstone,VIC,3113,54.00,0
+3,NULL,"15 Springfield Blvd",Springfield,TAS,7772,116.00,1
+4,NULL,"23 3rd St",Springfield,TAS,7111,203.00,1
+5,1,"Shop 112","Macquarie Park",NSW,2113,46.00,0
+6,3,"Shop B03",Parramatta,NSW,2150,37.00,0
+7,1,"Shop 132","Macquarie Park",NSW,2113,46.00,1
+8,3,"Shop A03",Parramatta,NSW,2150,37.00,1
+9,2,"Shop DF2","Macquarie Park",NSW,2341,55.00,1
+10,4,"Shop H07",Homebush,NSW,2233,33.00,1

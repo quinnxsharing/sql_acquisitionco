@@ -1,0 +1,6 @@
+acq_staff_id,c_staff_id,staff_family_name,staff_other_names,staff_phone,staff_street_address,staff_suburb,staff_state,staff_postcode,dob,email
+1,001,Freedman,Jeremy,0477122226,"11 Quimby St",Springfield,TAS,7112,1982-03-12,freedman@mymail.com.au
+2,002,Bellows,"Rory B",0412836227,"62 Kearney St",Springfield,TAS,7123,1986-07-21,rbb@yahooooo.com.au
+3,006,Kurtofsky,"Herschel S",0411888222,"33 Kearney St",Springfield,TAS,7123,1981-03-15,hersc_k@googly.com
+4,NULL,MacNeille,Cora,0428474679,"42 Montgomery Park",Springfield,VIC,3777,1990-10-26,cora_mn@springfield.net.au
+5,L003,Risotto,Luigi,0471333355,"7 Burnside Street",Montgomery,VIC,3104,1977-11-07,l.risotto@luigispizza.com

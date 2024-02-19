@@ -1,0 +1,11 @@
+acq_store_id,c_store_id,store_name,store_loc_id,company_id,store_mgr_id
+1,TAS01,"Springfield Boulevard",1,1,2
+2,VIC01,Chadstone,2,1,NULL
+3,NULL,Springfield,3,2,4
+4,NULL,Luigi's,4,3,5
+5,S001,"Macquarie Park",5,4,NULL
+6,S002,Parramatta,6,4,NULL
+7,A001,"Macquarie Park",7,2,4
+8,D002,Parramatta,8,3,2
+9,B006,"Macquarie Park",9,5,NULL
+10,F008,Parramatta,10,2,NULL
